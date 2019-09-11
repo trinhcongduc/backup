@@ -1,0 +1,90 @@
+[2019-02-20T08:16:28.534] [DEBUG] default - Some debug messages
+[2019-02-20T08:19:37.519] [DEBUG] default - up FILE else failed
+[2019-02-20T08:32:24.934] [DEBUG] default - Some debug messages
+[2019-02-20T08:56:32.223] [DEBUG] default - up FILE else failed
+[2019-02-21T07:46:08.207] [DEBUG] default - befor_infor_doc
+[2019-02-21T07:46:08.215] [DEBUG] default - indfordoc [{"id":48,"by":"doc-0"},{"id":47,"by":"des_file"}]
+[2019-02-21T07:46:08.215] [DEBUG] default - keydata
+[2019-02-21T07:46:08.215] [DEBUG] default - keydata ["id","test","type_send","infor_doc","doc-0"]
+[2019-02-21T07:46:08.216] [DEBUG] default - key_files
+[2019-02-21T07:46:08.216] [DEBUG] default - key_files ["doc-0"]
+[2019-02-21T07:46:08.398] [DEBUG] default - up FILE SUCCESS store/private/documents/22/1550735168231_thanos.jpg
+[2019-02-21T07:46:08.399] [DEBUG] default - paths
+[2019-02-21T07:46:08.399] [DEBUG] default - paths ["store/private/documents/22/1550735168231_thanos.jpg"]
+[2019-02-21T07:52:02.939] [DEBUG] default - befor_infor_doc
+[2019-02-21T07:52:02.949] [DEBUG] default - indfordoc [{"id":49,"by":"doc-0"},{"id":50,"by":"des_file"}]
+[2019-02-21T07:52:03.128] [DEBUG] default - up FILE SUCCESS store/private/documents/23/1550735522950_thanos.jpg
+[2019-02-21T07:52:03.128] [DEBUG] default - paths
+[2019-02-21T07:52:03.129] [DEBUG] default - paths ["store/private/documents/23/1550735522950_thanos.jpg"]
+[2019-02-23T10:14:17.291] [DEBUG] default - befor_infor_doc
+[2019-02-23T10:14:17.298] [DEBUG] default - indfordoc []
+[2019-02-23T10:18:41.107] [DEBUG] default - befor_infor_doc
+[2019-02-23T10:18:41.108] [DEBUG] default - indfordoc []
+[2019-02-25T02:39:33.918] [DEBUG] default - befor_infor_doc
+[2019-02-25T02:39:33.929] [DEBUG] default - indfordoc [{"id":51,"by":"des_file"}]
+[2019-02-25T02:51:31.021] [DEBUG] default - befor_infor_doc
+[2019-02-25T02:51:31.022] [DEBUG] default - indfordoc null
+[2019-02-25T02:52:29.492] [DEBUG] default - befor_infor_doc
+[2019-02-25T02:52:29.492] [DEBUG] default - indfordoc []
+[2019-02-25T02:53:24.529] [DEBUG] default - befor_infor_doc
+[2019-02-25T02:53:24.530] [DEBUG] default - indfordoc []
+[2019-02-25T02:56:53.380] [DEBUG] default - befor_infor_doc
+[2019-02-25T02:56:53.380] [DEBUG] default - indfordoc []
+[2019-02-25T03:01:59.360] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:01:59.360] [DEBUG] default - indfordoc []
+[2019-02-25T03:11:40.412] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:11:40.412] [DEBUG] default - indfordoc []
+[2019-02-25T03:12:01.171] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:12:01.171] [DEBUG] default - indfordoc []
+[2019-02-25T03:17:21.001] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:17:21.001] [DEBUG] default - indfordoc []
+[2019-02-25T03:18:08.794] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:18:08.794] [DEBUG] default - indfordoc []
+[2019-02-25T03:23:04.221] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:23:04.221] [DEBUG] default - indfordoc []
+[2019-02-25T03:24:44.343] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:24:44.343] [DEBUG] default - indfordoc []
+[2019-02-25T03:29:45.447] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:29:45.447] [DEBUG] default - indfordoc []
+[2019-02-25T03:31:30.855] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:31:30.855] [DEBUG] default - indfordoc []
+[2019-02-25T03:33:52.664] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:33:52.664] [DEBUG] default - indfordoc []
+[2019-02-25T03:52:57.850] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:52:57.850] [DEBUG] default - indfordoc []
+[2019-02-25T03:53:35.955] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:53:35.955] [DEBUG] default - indfordoc []
+[2019-02-25T03:54:20.971] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:54:20.972] [DEBUG] default - indfordoc []
+[2019-02-25T03:55:00.716] [DEBUG] default - befor_infor_doc
+[2019-02-25T03:55:00.716] [DEBUG] default - indfordoc []
+[2019-02-25T04:05:05.326] [DEBUG] default - befor_infor_doc
+[2019-02-25T04:05:05.326] [DEBUG] default - indfordoc []
+[2019-02-25T04:21:07.779] [DEBUG] default - befor_infor_doc
+[2019-02-25T04:21:07.780] [DEBUG] default - indfordoc []
+[2019-02-25T04:23:11.591] [DEBUG] default - befor_infor_doc
+[2019-02-25T04:23:11.599] [DEBUG] default - indfordoc []
+[2019-02-25T17:10:30.516] [DEBUG] default - befor_infor_doc
+[2019-02-25T17:10:30.522] [DEBUG] default - indfordoc []
+[2019-02-25T17:21:31.865] [DEBUG] default - befor_infor_doc
+[2019-02-25T17:21:31.870] [DEBUG] default - indfordoc []
+[2019-02-25T17:26:01.148] [DEBUG] default - befor_infor_doc
+[2019-02-25T17:26:01.155] [DEBUG] default - indfordoc []
+[2019-02-25T17:56:41.546] [DEBUG] default - befor_infor_doc
+[2019-02-25T17:56:41.551] [DEBUG] default - indfordoc []
+[2019-02-25T18:02:48.492] [DEBUG] default - befor_infor_doc
+[2019-02-25T18:02:48.500] [DEBUG] default - indfordoc []
+[2019-02-25T18:08:13.904] [DEBUG] default - befor_infor_doc
+[2019-02-25T18:08:13.908] [DEBUG] default - indfordoc []
+[2019-02-25T18:08:48.585] [DEBUG] default - befor_infor_doc
+[2019-02-25T18:08:48.585] [DEBUG] default - indfordoc []
+[2019-02-25T18:11:53.910] [DEBUG] default - befor_infor_doc
+[2019-02-25T18:11:53.910] [DEBUG] default - indfordoc [{"id":52,"by":"doc-0"},{"id":53,"by":"des_file"}]
+[2019-02-25T18:11:53.974] [DEBUG] default - up FILE SUCCESS store/private/documents/2/1551118313911_cod.txt
+[2019-02-25T18:11:53.974] [DEBUG] default - paths
+[2019-02-25T18:11:53.974] [DEBUG] default - paths ["store/private/documents/2/1551118313911_cod.txt"]
+[2019-02-25T18:46:46.629] [DEBUG] default - befor_infor_doc
+[2019-02-25T18:46:46.630] [DEBUG] default - indfordoc [{"id":54,"by":"doc-0"},{"id":55,"by":"des_file"}]
+[2019-02-25T18:46:46.697] [DEBUG] default - up FILE SUCCESS store/private/documents/3/1551120406630_cod.txt
+[2019-02-25T18:46:46.697] [DEBUG] default - paths
+[2019-02-25T18:46:46.697] [DEBUG] default - paths ["store/private/documents/3/1551120406630_cod.txt"]

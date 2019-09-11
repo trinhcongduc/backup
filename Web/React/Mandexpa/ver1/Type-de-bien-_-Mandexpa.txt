@@ -1,0 +1,109 @@
+Type de bien
+
+Ancien / Neuf
+
+Maison
+Appartement
+Résidence
+Immeuble de rapport
+Projet de construction
+Garage
+Terrain
+Local commercial
+Fonds de commerce
+Centre d'affaires
+Local industriel
+
+-----------------------------------------------------------
+Si Maison
+Maison
+Maison jumelée
+Maison mitoyenne
+Maison de maître
+Maison individuele
+Maison à rénover
+Maison bi-familiale
+Gros-oeuvre
+Ferme
+Fermette
+Villa
+Maison de ville
+Maison de village
+Propriété
+Chalet
+Bungalow
+Château
+Autre : Préciser
+
+-----------------------------------------------------------
+Si Appartement
+Appartement
+Duplex
+Triplex
+Penthouse
+Loft
+Chambre
+Studio
+Loft
+Appartement meublé
+
+-----------------------------------------------------------
+Si résidence
+Résidence
+Nouvelle construction
+Résidence en construction
+Logement encadré
+
+-----------------------------------------------------------
+Si immeuble de rapport
+Immeuble de rapport
+Maison de rapport
+
+-----------------------------------------------------------
+Si Projet de construction
+Maisons
+Maison bi-familiale
+Lotissement d'habitation
+Immeuble résidentiel
+Immeuble de bureaux
+Zone industriel
+Zone commerciale
+Zone de bureau
+Crèche
+Maison de retraite
+Autre : Préciser
+
++
+Accord de principe
+Accord définitif
+Pas encore d'accord sur le projet
+(pour cette catégorie, nombre de chambre pas obligatoire)
+
+-----------------------------------------------------------
+Si Garage
+Box fermé
+Emplacement intérieur
+Emplacement extérieur
+
+-----------------------------------------------------------
+Si Terrain
+Terrain
+Terrain à bâtir
+Terrain agricole
+Terrain pour loisir
+Terrain industriel
+Gros-oeuvre
+
+-----------------------------------------------------------
+Si Local commercial
+Local commercial
+Commerce
+Bureau
+Entrepôt
+Dépôt
+Restaurant
+Hôtel
+Local pour professions libérales
+Hangar
+Archives
+

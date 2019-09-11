@@ -1,0 +1,9 @@
+address : 35.181.59.172
+
+
+https://docs.bitnami.com/bch/infrastructure/mean/get-started/get-started/
+
+
+
+
+lệnh cơ bản : https://workplace.facebook.com/notes/software-engineering/c%C3%A1c-l%E1%BB%87nh-unix-th%C6%B0%E1%BB%9Dng-d%C3%B9ng-tr%C3%AAn-server/339062906861130/

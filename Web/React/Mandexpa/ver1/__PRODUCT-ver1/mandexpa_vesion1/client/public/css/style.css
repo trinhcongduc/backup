@@ -1,0 +1,420 @@
+body {
+    font-family: 'Montserrat', sans-serif ;
+  }
+.rct-sidebar .rct-sidebar-content .site-logo{
+    padding: 15px;
+}
+.logo-mini{
+    width: 100%;
+    text-align: center;
+}
+.rct-header{
+    min-height: 80px !important;
+}
+
+.rct-scroll >div:nth-child(3){
+    width: 10px !important;
+}
+.session-head .session-logo a{
+    width: 100%;
+    text-align: center;
+}
+.btn.btn-outline-primary{
+    color: #fff;
+    background-color: #614194;
+    border-color: #614194;
+    height: 40px;
+}
+.btn.btn-outline-primary:hover{
+    background-color: #2E127F;
+    border-color: #2E127F;
+}
+.session-body .form-group .form-control{
+    height: 40px;
+}
+.btn.btn-secondary{
+    background-color: #525976;
+    border-color: #525976;
+    color: #fff;
+}
+.btn.btn-primary{
+    color: #fff;
+}
+.btn{
+    height: 40px !important;
+}
+.heightIP40 input,.heightIP40 .form-control{
+    min-height: 40px;
+}
+/* .heightIPauto input{
+    height: auto;
+    min-height: 40px;
+} */
+.selectCountry{
+    border: 1px solid #EBEDF2;
+    border-radius: 0.25rem;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-sizing: border-box;
+}
+.selectCountry .css-vj8t7z,.selectCountry .css-1hwfws3{
+    height: 38px !important;
+    padding: 0px;
+    border: none;    
+}
+.selectCountry svg{
+    margin: auto;
+}
+.selectCountry span{
+    height: auto;
+}
+.selectCountry .MuiFormHelperText-root-156{
+    display: none;
+}
+.form-group .formalInput :before,.formalInput .MuiInput-underline-118:hover:not(.MuiInput-disabled-117):not(.MuiInput-focused-116):not(.MuiInput-error-119):before{
+    border-bottom: none;
+}
+.formalInput input,.formalInput select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+    padding: 6px 10px 7px 10px;
+}
+.form-group .noPadding{
+    padding-left: 0px;
+}
+.formalInputSpecial .form-control{
+    box-shadow: none;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0px 5px;
+}
+.displayFlex{
+    display: flex;
+}
+.displayFlex .btn.btn-primary i{
+    font-size: 24px;
+}
+.popupProperty .MuiFormGroup-root-281{
+    display: block;
+}
+.popupProperty label{
+    margin-bottom: 0;
+}
+.popupProperty .card-body,.popupProperty #form-dialog-title{
+    padding: 0px;
+}
+.popupProperty .MuiDialogContent-root-280:first-child{
+    padding-top: 10px;
+}
+.popupProperty .card-body .card-header,.popupProperty .card-body .card-body,.popupProperty .card-header,
+.popupProperty .MuiDialogContent-root-280{
+    padding: 10px;
+}
+.tabParentStyle .tabParent .titleProperty{
+    min-width: unset !important;
+    margin-right: 10px;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #614194;
+    border: 2px solid #614194;
+    border-bottom: 0px;
+}
+.tabParentStyle .tabParent .titleProperty.active{
+    border: 1px solid #614194;
+    border-bottom: 0px;
+    background-color: #614194;
+    color: #fff;
+}
+.tabParentStyle .tabParent .titleProperty:hover{
+    border: 1px solid #614194;
+    color: #fff;
+    background-color: #614194;
+    border-bottom: 0px;
+    border-radius: 0px;
+}
+.tabParent.nav-tabs{
+    border-bottom: 1px solid transparent;
+}
+.height40px, .height40px input{
+    min-height: 40px !important;
+    padding: 0px;
+}
+.height40px div{
+    padding: 0px 5px !important;
+    width: 100%;
+    box-shadow: none;
+}
+.height40px fieldset{
+    border-radius: 0px;
+    height: 40px;
+}
+.pdLeft0{
+    padding-left: 0px !important;
+}
+.radius0 .card{
+    border-radius: 0px;
+}
+.height40px span{
+    padding: 0px;
+}
+.height40px span input{
+    font-size: 13px;
+}
+.height40px span svg{
+    width: 20px;
+}
+.detailProperty .height40px div{
+    padding: 3px 5px !important;
+    width: 100%;
+}
+.detailProperty .height40px i{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pd20px{
+    padding: 20px;
+}
+.characterDes{
+    padding: 0px 20px;
+}
+.contentProperty{
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #614194;
+}
+.react-datepicker-popper ul{
+    width: 100px !important;
+    border: 1px solid #ccc;
+}
+.timeProperty .react-datepicker__time-container .react-datepicker__time{
+    width: 100px;
+}
+.timeProperty .react-datepicker__header--time{
+    width: 100px;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+}
+.timeProperty .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box{
+    width: unset;
+}
+.timeProperty .react-datepicker{
+    border: none;
+}
+.obligate{
+    color: red;
+}
+.obligateField{
+    display: inline-flex !important;
+}
+.imgListProperty{
+    width: 100px !important;
+}
+.iconListProperty{
+    /* display: flex !important;
+    padding: 25px !important; */
+}
+.border0{
+    border-bottom: 0px !important;
+}
+.borderList{
+    border-bottom: 1px solid #ccc !important;
+}
+.iconMg{
+    border: 1px solid #333;
+    min-width: 35px;
+    cursor : pointer;
+    padding: 3px 8px;
+}
+.iconMg1{
+    min-width: 35px;
+    cursor : pointer;
+    color: #2E127F;
+}
+.iconMg:last-child{
+    border-bottom: 1px solid #333;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-left: 0;
+}
+.iconMg:first-child{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px;
+}
+.iconMg i{
+    font-size: 15px;
+}
+
+.icon_action_radius{
+    border-radius: 4px;
+}
+
+.action_cell {
+    /*display: flex !important;*/
+    flex-direction: unset !important;
+    margin: 10px 0;
+    border-bottom: 0 !important;
+}
+.list_row {
+    border-bottom: 1px solid #ccc;
+}
+.displayFlex{
+    display: flex;
+}
+.percent{
+    padding-top: 15px;
+}
+.percent2{
+    padding-top: 7px;
+}
+.flexNone{
+    flex-direction: unset !important;
+    width: 100%;
+    margin-bottom: 1.563rem !important;
+}
+.width100{
+    width: 100%;
+}
+.logoHeader{
+    display: inline-block;
+    margin-top: 10px;
+}
+.bgWhite{
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 3px 1px -2px rgba(0,0,0,0.12);
+    border-radius: 4px;
+}
+.titleSearch{
+    padding-left: 12px;
+}
+.Scroll{
+    height: 330px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none; 
+  margin: 0;
+}
+.hostPropertyMatch button{
+    width: 100%;
+}
+.question-tooltip i{
+    padding-left: 10px;
+}
+.btnAgenda.btn{
+    margin-bottom: 20px;
+    padding-top: 8px !important;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.agenda-icon i{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.label-commission{
+    height: 49px;
+}
+.label-commission span{
+    padding: 0px;
+}
+.data-filled{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    height: fit-content;
+    min-height: 40px;
+}
+.react-datepicker__input-container{
+    width: 100%;
+}
+/* .abc img{
+    height: 300px;
+} */
+.newMatch{
+    background-color: #FF0000;
+    border-radius: 50%;
+    position: absolute;
+    left: 12vw;
+    margin-top: -20px;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #fff;
+}
+.loading{
+    width: 40px;
+    height: 30px;
+}
+.loading1{
+    width: 40px;
+    height: 40px;
+}
+.click-img{
+    width: 100%;
+    cursor : pointer;
+    border: 5px solid #ccc;
+
+}
+.click-img:hover{
+    box-shadow: 0px 2px 5px 2px rgba(0,0,0,.20);
+}
+/* style for tablet + mobile */
+@media (max-width: 1199px) and (min-width: 320px){
+    .rct-session-wrapper .session-inner-wrapper .session-body form .btn.btn-outline-primary{
+        height: auto !important;
+        width: auto !important;
+    }
+}
+
+.confirm-b{
+
+    background-color: #70AD47;
+    color: #fff;
+    border: 1px solid #70AD47;
+    font-size: 18px;
+    padding: 5px 40px;
+    margin-left: 65vw;
+    cursor : pointer;
+}
+.confirm-a{
+
+    background-color: #70AD47;
+    color: #fff;
+    border: 1px solid #70AD47;
+    font-size: 18px;
+    padding: 5px 40px;
+    margin-left: 65px;
+    cursor : pointer;
+}
+.upload-doc-css{
+    display: block;
+}
+.data-filled.doc-principal{
+    border: 0;
+}
+.obligateField.card-header{
+    display: unset;
+}
+.card{
+    margin-bottom: 20px;
+}
+.image-upload.card{
+    min-height: 400px;
+    overflow: auto;
+}
+
+
+
+
+/*Adding class bootstrap*/
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}

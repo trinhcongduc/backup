@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${APP_CONTAINER:-app}
+    image: app
+    command: nodemon --legacy-watch app.js
+    volumes:
+      - .:/app
+    ports:
+      - "2603:2603"
+    # network_mode: "host"
+    depends_on:
+      - mysql
+    networks:
+      - "net-tier"
+
+  mysql:
+    container_name: ${MYSQL_CONTAINER:-mysql_container}
+    image: mysql:${MYSQL_TAG:-5.7}
+    ports:
+      - "${MYSQL_PORT:-3307}:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=mandexpa
+      - MYSQL_DATABASE=mandexpa
+      - MYSQL_USER=mandexpa
+      - MYSQL_PASSWORD=mandexpa
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      - "net-tier"
+
+networks:
+  net-tier:

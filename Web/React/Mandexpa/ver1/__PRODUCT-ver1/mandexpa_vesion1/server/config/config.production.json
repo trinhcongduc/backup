@@ -1,0 +1,27 @@
+{
+    "distance": {
+        "min": 100, 
+        "max": 100000
+    },
+
+    "exchangeRate": 1,
+    "banks": 
+
+       [
+            {
+                "name": "Vietcombank",
+                "account_no": "01010",
+                "subtitle": "Chi Nhanh Hoi So",
+                "icon": ""
+            },
+            {
+                "name": "Agribank",
+                "account_no": "0101'",
+                "subtitle": "Chi Nhanh Hoi So",
+                "icon": ""
+            }
+        
+        ]
+
+    
+}

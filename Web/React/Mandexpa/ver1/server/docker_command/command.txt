@@ -1,0 +1,8 @@
+Vào docker
+docker exec -it app bash
+
+xem process node đang chạy:
+ps -ef | grep node
+
+Stop process đó:
+kill -9 ID

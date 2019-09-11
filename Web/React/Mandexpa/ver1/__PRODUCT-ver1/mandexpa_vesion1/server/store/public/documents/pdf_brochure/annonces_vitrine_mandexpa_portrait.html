@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="min-width: 1120px;margin: 50px;margin-left: 20px !important;">
+	<div style="margin-right: 20px;">
+	<section class="header mg-bot20" style="margin-bottom: 20px;">
+		<div class="row " >
+			<div class="col-sm-6 " >
+				<h1 class="title" style="margin-top: 0px;color: #341a7a;">{{sub_type_property}}</h1>
+				<div class="" style="display: flex;" >
+					<i class="fa fa-map-marker-alt" style="color: #fff;background-color: #04ADC4;padding: 10px 12px;border-radius: 50%;margin-right: 10px;"></i>
+					<p style="margin: auto 0; color: #5c4c74;">Adresse: <h4 class="" style="margin: auto 0; color: #5e4484;">{{sector}},{{town}}</h4></p>
+				</div>
+			</div>
+			<div class="col-sm-6 price" style="margin: auto;color: #04ADC4;font-size: 30px;font-weight: 600;">
+				<div class="text-right" style="font-size: 50px;margin-right: 50px;">
+					{{number_pay}} €
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="color" style="background-color: {{color}};height: 30px;">
+
+	</section>
+	<section class="intro1 mg-bot20" style="margin-bottom: 20px;">
+		<div class="status" style="color: #4547D2;font-size: 35px;font-weight: 600;">
+		{{status_mandate}}
+		</div>
+		<div class="row " style="display: flex;">
+			<div class="col-sm-8 " style="flex: 1;background-image: url('{{main_image}}');background-repeat: no-repeat;background-size: cover;margin-left: 15px;">
+				<div class="list-character" style="display: flex;position: absolute;top: 90%;">
+					<div class="room-child" style="background-color: #04ADC4;color: #fff;margin: 0 10px;padding: 5px 17px;border-radius: 43%; display: inline-block;">
+						<i class="fa fa-bed" style="margin-right: 10px;"></i>
+						{{number_bedroom}}
+					</div>
+					<div class="room-child" style="background-color: #04ADC4;color: #fff;margin: 0 10px;padding: 5px 17px;border-radius: 43%; display: inline-block;">
+						<i class="fa fa-car" style="margin-right: 10px;"></i>
+						{{park_inside}}
+					</div>
+					<div class="room-child" style="background-color: #04ADC4;color: #fff;margin: 0 10px;padding: 5px 17px;border-radius: 43%;display: inline-block;">
+						<i class="fa fa-bath" style="margin-right: 10px;"></i>
+						{{number_bathroom}}
+					</div>
+					<div class="room-child" style="background-color: #04ADC4;color: #fff;margin: 0 10px;padding: 5px 17px;border-radius: 43%;display: inline-block;">
+						<i class="fa fa-expand" style="margin-right: 10px;"></i>
+						{{living_space}} m²
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 " style="flex: 1;">
+				<div style="color: #9a5699;">
+					<div style="margin-bottom: 10px;">
+						<h4 style="display: inline-block">Agence:</h4>
+
+						<img src='{{logo}}' alt="upload by user" style="margin-left: 40px;" height=80px">
+					</div>
+					<h4>membre MANDEXPA</h4>
+				</div>
+
+				<div style="margin-bottom:10px;">
+					<ul class="infor-host" style="list-style: none;	padding: 10px;background-color: #D9D9D9;margin-bottom: 0px;">
+						<li class="text-uppercase">{{raison_social}}</li>
+						<li>{{address}}</li>
+						<li>{{code_postal}} - {{ville}}</li>
+						<li><a href="tel:123">{{telephone}}</a></li>
+						<li class="red-color" style="color: #AB0000;">{{email}}</li>
+					</ul>
+				</div>
+				<div>
+					<img src='{{sidebar_image_1}}'  width="100%" style="display: block;margin-bottom:10px;" height="250px;">
+					<img src='{{sidebar_image_2}}' width="100%" style="display: block;" height="250px;">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="description mg-bot20" style="margin-bottom: 20px; padding: 0 20px;font-size: 18px;">
+		{{des_pro}}
+	</section>
+	<section class="infor-property mg-bot20" style="margin-bottom: 20px;">
+		<div class="row" >
+			<div class="col-sm-4" >
+				<p style="    border-bottom: 1px solid #ccc;margin-right: 30px;">
+					<strong>Surface habitable: {{total_area_building}} m²</strong>
+				</p>
+				<!-- <hr style="margin-top: 0;width: 90%;"> -->
+				<!--<p>-->
+					<!--Surface net habitable:-->
+				<!--</p>-->
+				<!--<p>-->
+					<!--Surface totale:-->
+				<!--</p>-->
+			</div>
+			<div class="col-sm-4">
+				<p><strong>Ref.agence: </strong>{{code}}</p>
+				<p><strong>Interieur: </strong>{{category}}</p>
+				<p><strong>Sanitaire: </strong> Salle de bain ( {{number_bathroom1}} )</p>
+				<p><strong>Exterieur: </strong>{{outdoor_space}}</p>
+				<p>Disponibilite: {{date_avai}}</p>
+			</div>
+			<div class="col-sm-4" >
+				<p>Performance énerquétique</p>
+                <div class="energy-cover row">
+                    <div class="col-sm-6">
+                        <div class="energy-leter text-a">
+                            <div class="text-leter">  A</div>
+                        </div>
+                        <div class="energy-leter text-b">
+                            <div class="text-leter">  B</div>
+                        </div>
+                        <div class="energy-leter text-c">
+                            <div class="text-leter">  C</div>
+                        </div>
+
+                        <div class="energy-leter text-d">
+                            <div class="text-leter">  D</div>
+                        </div>
+                        <div class="energy-leter text-e">
+                            <div class="text-leter">  E</div>
+                        </div>
+                        <div class="energy-leter text-f">
+                            <div class="text-leter">  F</div>
+                        </div>
+                        <div class="energy-leter text-g">
+                            <div class="text-leter">  G</div>
+                        </div>
+                        <div class="energy-leter text-h">
+                            <div class="text-leter">  H</div>
+                        </div>
+                        <div class="energy-leter text-i">
+                            <div class="text-leter">  I</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="energy-leter {{color-a}}">
+                            <div class="text-leter"> {{energy_efficiency1}} </div>
+                        </div>
+                        <div class="energy-leter {{color-b}}">
+                            <div class="text-leter"> {{energy_efficiency1}}</div>
+                        </div>
+                        <div class="energy-leter {{color-c}}">
+                            <div class="text-leter">{{energy_efficiency1}} </div>
+                        </div>
+
+                        <div class="energy-leter {{color-d}}">
+                            <div class="text-leter">{{energy_efficiency1}} </div>
+                        </div>
+                        <div class="energy-leter {{color-e}}">
+                            <div class="text-leter"> {{energy_efficiency1}}</div>
+                        </div>
+                        <div class="energy-leter {{color-f}}">
+                            <div class="text-leter ">{{energy_efficiency1}}</div>
+                        </div>
+                        <div class="energy-leter {{color-g}}">
+                            <div class="text-leter">{{energy_efficiency1}}</div>
+                        </div>
+                        <div class="energy-leter {{color-h}}">
+                            <div class="text-leter">{{energy_efficiency1}} </div>
+                        </div>
+                        <div class="energy-leter {{color-i}}">
+                            <div class="text-leter"> {{energy_efficiency1}} </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- A #00ac6e ; B #247d46 ; C #87b840 ; D #d7df21 ; E #ffcb08 ; F #f7941e ; G #f36f21 ; H #ef4023 ; I #d2232a -->
+
+				<p></p>
+				<p>Isolation Thermique: {{energy_efficiency2}}</p>
+				<img src="{{logo_mandexpa}}" alt="" height="100px" style="float: right;">
+			</div>
+		</div>
+	</section>
+</div>
+</div>
+</body>
+<style>
+    .energy-leter {
+
+        height: 20px;
+        position: relative;
+        margin-bottom: 4px;
+    }
+
+    .energy-leter .text-leter {
+        line-height: 20px;
+        text-align: right;
+        margin-right: 10px;
+        color: white;
+    }
+    .energy-leter:before {
+        content: "";
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    .text-i:before {
+        border-left: 10px solid #d2232a;
+    }
+    .text-h:before {
+        border-left: 10px solid  #ef4023;
+    }
+    .text-g:before {
+        border-left: 10px solid #f36f21;
+    }
+    .text-f:before {
+        border-left: 10px solid #f7941e;
+    }
+    .text-e:before {
+        border-left: 10px solid #ffcb08;
+    }
+    .text-d:before {
+        border-left: 10px solid #d7df21;
+    }
+    .text-c:before {
+        border-left: 10px solid #87b840;
+    }
+    .text-b:before {
+        border-left: 10px solid  #247d46;
+    }.text-a:before {
+         border-left: 10px solid  #00ac6e;
+     }
+
+    .text-i{
+        width: 160px;
+        background: #d2232a;
+    }
+    .text-h{
+        width: 150px;
+        background: #ef4023;
+    }
+    .text-g{
+        width: 140px;
+        background:  #f36f21;
+    }
+    .text-f{
+        width: 130px;
+        background:#f7941e;
+    }
+    .text-e{
+        width: 120px;
+        background: #ffcb08;
+    }
+    .text-d{
+        width: 110px;
+        background: #d7df21;
+    }
+    .text-c{
+        width: 100px;
+        background: #87b840;
+    }
+    .text-b{
+        width: 90px;
+        background: #247d46;
+    }
+    .text-a{
+        width: 80px;
+        background: #00ac6e;
+    }
+    .color-gray {
+        background: grey;
+        width: 40px;
+    }
+    .color-gray:before {
+
+    }
+    .energy-leter.color-gray:before {
+        content: "";
+        position: absolute;
+
+        left: -10px;
+
+
+        height:0px; width:0px;
+        border-right:10px solid grey;
+        border-top:10px solid transparent;
+        border-bottom:10px solid transparent;
+    }
+    .energy-leter.color-gray .text-leter {
+           text-align: left;
+        margin-left: 5px;
+
+    }
+</style>
+</html>
