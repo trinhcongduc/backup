@@ -31,7 +31,7 @@
     "jsonwebtoken": "^8.4.0",
     "jszip": "^2.6.1",
     "jszip-utils": "0.0.2",
-    "knex": "^0.15.2",
+    "knex": "^0.20.1",
     "lodash": "^4.17.11",
     "log4js": "^3.0.6",
     "mariasql": "^0.2.6",
